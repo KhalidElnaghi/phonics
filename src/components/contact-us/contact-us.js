@@ -14,7 +14,7 @@ const ContactUsView = () => {
       {/* <Background></Background> with letters */}
       <div className="absolute inset-0 bg-[url('/images/footer.jpeg')] bg-cover bg-center opacity-30"></div>
 
-      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto p-6">
+      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between max-w-5xl mx-auto p-6 gap-14">
         <div className="relative mt-8 md:mt-0 md:w-1/2 flex items-center justify-center">
           <Image
             src="/images/phones.svg"
