@@ -1,18 +1,17 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import Header from "../layouts/header";
 const HomeView = () => {
   return (
     <div
       style={{
         height: "100vh",
         background: "linear-gradient(180deg, #CEEAED 54%, #FFFFFF 100%)",
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
       }}
       id="home"
     >
+      <Header />
       <div
         style={{
           width: "90%",
@@ -26,6 +25,7 @@ const HomeView = () => {
           justifyContent: "center",
           alignItems: "center",
           gap: "15px",
+          marginInline: "auto",
         }}
       >
         <h2

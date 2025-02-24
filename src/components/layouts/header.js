@@ -17,7 +17,7 @@ export default function Header() {
 
   return (
     <header
-      className={`w-full py-4 px-16 flex items-center justify-between bg-[#CEEAED] rounded-b-[50px] shadow-lg fixed top-0 z-50`}
+      className={`w-full py-4 px-16 flex items-center justify-between bg-[#CEEAED] rounded-b-[50px] shadow-lg  top-0 z-50`}
     >
       {/* Logo */}
       <Link href="#" className="hidden md:flex">

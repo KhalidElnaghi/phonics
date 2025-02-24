@@ -30,8 +30,8 @@ export default function RootLayout({ children }) {
       <body
         className={`${baloo2.variable} ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
-        <main style={{ marginTop: "30px" }}>{children}</main>
+    
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
