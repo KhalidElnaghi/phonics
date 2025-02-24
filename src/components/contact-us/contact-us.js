@@ -4,6 +4,7 @@ import React from "react";
 const ContactUsView = () => {
   return (
     <section
+      id="contact_us"
       className="relative w-full min-h-screen flex items-center justify-center"
       style={{
         background:
