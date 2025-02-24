@@ -53,7 +53,7 @@ export default function Footer() {
       {/* Right Section: Contact & Social Links */}
       <div className="text-center md:text-left">
         <h3 className="font-semibold text-green-700">Stay Connected</h3>
-        <p className="text-sm flex items-center justify-center md:justify-start gap-2">
+        <p className="text-sm flex items-center justify-center md:justify-start gap-2 mt-3">
           📧 phonics@info.com
         </p>
         <p className="mt-3 text-green-700 font-semibold">Follow us on</p>
