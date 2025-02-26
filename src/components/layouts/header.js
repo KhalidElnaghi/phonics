@@ -25,7 +25,7 @@ export default function Header() {
       </Link>
 
       {/* Navigation Links (Hidden on Mobile) */}
-      <nav className="space-x-12">
+      <nav className="space-x-12 mx-auto">
         {NAV_ITEMS.map((item) => (
           <Link
             key={item.label}

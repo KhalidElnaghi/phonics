@@ -25,10 +25,10 @@ const ContactUsView = () => {
         </div>
 
         <div className="text-white text-center md:text-left md:w-1/2">
-          <h2 className="text-3xl md:text-5xl font-bold leading-tight">
+          <h2 className="text-3xl md:text-5xl font-bold leading-tight max-md:text-2xl">
             Give your child a head start in learning letters & sounds.
           </h2>
-          <p className="mt-4 text-3xl text-[#F9CD14] font-bold ">
+          <p className="mt-4 text-3xl text-[#F9CD14] font-bold max-md:text-2xl">
             Download Now!
           </p>
           <div className="flex gap-3 mt-6">

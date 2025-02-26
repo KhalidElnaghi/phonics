@@ -5,29 +5,11 @@ import Header from "../layouts/header";
 const HomeView = () => {
   return (
     <div
-      style={{
-        height: "100vh",
-        background: "linear-gradient(180deg, #CEEAED 54%, #FFFFFF 100%)",
-      }}
       id="home"
+      className="max-screen h-screenbg-gradient-to-b from-[#CEEAED] via-[#CEEAED] to-white xs:h-[300px]"
     >
       <Header />
-      <div
-        style={{
-          width: "90%",
-          height: "90%",
-          backgroundImage: "url('/images/hero.svg')",
-          backgroundSize: "100% 100%",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
-          gap: "15px",
-          marginInline: "auto",
-        }}
-      >
+      <div className="w-[90%] h-[90%] bg-[url('/images/hero.svg')] bg-[length:100%_100%] bg-center bg-no-repeat flex flex-col justify-center items-center gap-[15px] mx-auto">
         <h2
           style={{
             fontWeight: 700,

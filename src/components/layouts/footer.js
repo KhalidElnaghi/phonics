@@ -10,11 +10,17 @@ export default function Footer() {
           "linear-gradient(180deg, #FFFFFF 0%, #C1E0E4 37.5%, #9CCDD4 60%, #6B9BA3 100%)",
         minHeight: "300px",
       }}
-      className=" flex justify-around items-center  text-[#022A49]"
+      className=" flex justify-around items-center max-sm:flex-col  text-[#022A49] py-3"
     >
       {/* Left Section: Logo & Download Links */}
       <div className="text-center md:text-left mb-6 md:mb-0">
-        <Image src="/images/logo.svg" alt="Logo" width={100} height={100} />
+        <Image
+          src="/images/logo.svg"
+          alt="Logo"
+          width={100}
+          height={100}
+          className="max-sm:mx-auto"
+        />
         <p className="text-md my-3 font-semibold">Learn, Play & Grow!</p>
         <div className="flex gap-2  justify-center md:justify-start">
           <a>
@@ -34,17 +40,17 @@ export default function Footer() {
         <ul className=" space-y-2 font-semibold">
           <li>
             <a href="#" className="hover:underline">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#about" className="hover:underline">
               About
             </a>
           </li>
           <li>
-            <a href="#" className="hover:underline">
-              Privacy Policy
-            </a>
-          </li>
-          <li>
-            <a href="#" className="hover:underline">
-              Terms & Conditions
+            <a href="#contact_us" className="hover:underline">
+              Contact Us
             </a>
           </li>
         </ul>
